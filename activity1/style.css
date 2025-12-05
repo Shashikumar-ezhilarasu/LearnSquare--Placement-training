@@ -1,0 +1,23 @@
+.headercard{
+    background-color: #ff0505;
+    color: rgb(250, 4, 4);
+    font-size: large;
+}
+
+.tasklist{
+    background-color: #480303;
+    color: white;
+    font-size: medium;
+    padding: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: "linear-gradient(120deg, #ff0505, #480303)";
+}
+.overall{
+    background-color: #ff0505;
+    color: rgb(250, 4, 4);
+    font-size: large;
+}
