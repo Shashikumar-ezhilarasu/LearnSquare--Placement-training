@@ -47,3 +47,14 @@ function check(){
         
     };  
 }
+
+let options = {
+    method: 'GET',
+};
+
+fetch('https://gorest.co.in/public/v2/users', options)
+    .then(response => response.json())
+    .then(function(jsonData) {
+        console.log(jsonData);
+    })
+    .catch(err => console.error('error: ' + err));
